@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image:url(./assets/bg.png);
+    
+}
+
+#game-image{
+    margin-left: 350px;
+    margin-top: 120px;
+    
+}
+.gameImage{
+    width: 500px;
+}
+.gamename{
+    color: #5130B6;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: -56px;
+    margin-left: -200px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+#playgame{
+    margin-left: 1000px;
+    position: absolute;
+    bottom: 45px;
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+}
+h3{
+    color: white;
+    margin: 20px;
+    position:relative;
+    bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
